@@ -1,0 +1,8 @@
+// Главный scss файл
+// Подключает все сторонние scss файлы
+
+@import '_mixin';
+@import '_fonts';
+@import '_settings';
+
+// Подключение компонент
