@@ -1,4 +1,7 @@
 //- Главная страница сайта
 extends base
 block content
-	include ./pug/components/header.pug
+	.wrapper
+		img(src="img/main-screen.jpg", alt="задний фон", class="img-bg")
+		.other-content
+			include ./pug/components/header.pug

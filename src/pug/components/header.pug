@@ -1,1 +1,7 @@
-h1 Hi!
+include ./../mixin.pug
+
+header.header
+	nav.header__nav
+		img(src="img/logo.svg", alt="Лого")
+		+createList("<a href=\"#\">Чем занимаемся</a>", "<a href=\"#\">Процесс работы</a>", "<a href=\"#\">Команда</a>").header__list
+		button.btn.btn-color-purple Оставить заявку

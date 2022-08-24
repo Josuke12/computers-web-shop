@@ -37,4 +37,81 @@ button, input {
   cursor: pointer;
 }
 
+.img-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  object-fit: cover;
+  object-position: right;
+}
+
+.other-content {
+  position: relative;
+  z-index: 2;
+}
+
+.header {
+  margin-top: 4.1rem;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.header__nav img {
+  max-width: 4rem;
+  max-height: 4rem;
+}
+.header__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 1.6rem;
+  line-height: 117%;
+}
+.header__list li:not(:last-child) {
+  margin-right: 7.1rem;
+}
+
+@media (max-width: 778px) {
+  .header {
+    margin-top: 2.1rem;
+  }
+  .header__nav {
+    flex-direction: column;
+  }
+  .header__nav .btn {
+    margin-top: 2rem;
+  }
+  .header__list {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .header__list li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 1.2rem;
+  }
+}
+.btn {
+  width: 18.8rem;
+  height: 4.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 150%;
+  text-align: center;
+  color: #fff;
+}
+.btn-color-purple {
+  font-weight: normal;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
 /*# sourceMappingURL=style.css.map */
