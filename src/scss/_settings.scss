@@ -46,3 +46,9 @@ button, input {
     position: relative;
     z-index: 2;
 }
+
+.container {
+    max-width: 100rem;
+    padding: .5rem;
+    margin: auto;
+}

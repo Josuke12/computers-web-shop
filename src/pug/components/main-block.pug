@@ -1,0 +1,13 @@
+mixin createPresent(...name)
+	each i in name
+		.present__block
+			h4 18
+			p= i		
+
+main.main
+	.present
+		h1 Собираем игровой ПК под ваш бюджет
+		.present__blocks
+			+createPresent('Дней', 'Часов', 'Минут', 'Секунд')
+		.present__button
+			button.btn Оставить заявку

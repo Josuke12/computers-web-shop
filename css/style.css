@@ -51,6 +51,12 @@ button, input {
   z-index: 2;
 }
 
+.container {
+  max-width: 100rem;
+  padding: 0.5rem;
+  margin: auto;
+}
+
 .header {
   margin-top: 4.1rem;
 }
@@ -112,6 +118,68 @@ button, input {
 .btn-color-purple {
   font-weight: normal;
   background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.main {
+  margin-top: 6.8rem;
+}
+
+.present h1 {
+  font-size: 6.4rem;
+  line-height: 120%;
+  max-width: 72rem;
+}
+.present__blocks {
+  margin-top: 4.5rem;
+  display: flex;
+  align-items: center;
+}
+.present__block {
+  width: 10.2rem;
+  height: 11.2rem;
+  background: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 5.6rem;
+}
+.present__block h4 {
+  font-size: 3.6rem;
+  line-height: 117%;
+}
+.present__block p {
+  font-size: 1.4rem;
+  opacity: 0.4;
+}
+.present__block:not(:last-child) {
+  margin-right: 3rem;
+}
+
+@media (max-width: 768px) {
+  .present {
+    text-align: center;
+  }
+  .present h1 {
+    font-size: 4rem;
+  }
+  .present__blocks {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .present__button {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 507px) {
+  .present__block:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+  .present__blocks {
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
