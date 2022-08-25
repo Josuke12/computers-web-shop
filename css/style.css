@@ -370,5 +370,25 @@ button, input {
     flex-direction: column;
   }
 }
+.buy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 14rem;
+}
+.buy h2 {
+  font-size: 4.8rem;
+  line-height: 140%;
+  text-align: center;
+}
+.buy p {
+  font-size: 1.6rem;
+  line-height: 160%;
+  opacity: 0.5;
+  margin: 3rem 0 4.5rem;
+}
+.buy button {
+  margin-bottom: 2rem;
+}
 
 /*# sourceMappingURL=style.css.map */
