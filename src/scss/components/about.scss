@@ -1,0 +1,35 @@
+.about {
+	margin-top: 20rem;
+	&__wrap {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		img {
+			max-width: 30.6rem;
+		}
+	}
+
+	&__info {
+		margin-left: 8rem;
+		h2 {
+			font-size: 4.8rem;
+			margin-bottom: 3.5rem;
+		}
+		p {
+			font-size: 1.6rem;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.about {
+		&__wrap {
+			flex-direction: column;
+		}
+		&__info {
+			margin-left: 0;
+			margin-top: 1rem;
+			text-align: center;
+		}
+	}
+}

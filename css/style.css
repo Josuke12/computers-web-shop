@@ -181,5 +181,37 @@ button, input {
     flex-direction: column;
   }
 }
+.about {
+  margin-top: 20rem;
+}
+.about__wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about__wrap img {
+  max-width: 30.6rem;
+}
+.about__info {
+  margin-left: 8rem;
+}
+.about__info h2 {
+  font-size: 4.8rem;
+  margin-bottom: 3.5rem;
+}
+.about__info p {
+  font-size: 1.6rem;
+}
+
+@media (max-width: 768px) {
+  .about__wrap {
+    flex-direction: column;
+  }
+  .about__info {
+    margin-left: 0;
+    margin-top: 1rem;
+    text-align: center;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
